@@ -1,0 +1,6 @@
+/system       ext4     system                                              flags=display=system;logical;slotselect
+/vendor       ext4     vendor                                              flags=display=vendor;logical;slotselect
+/product      ext4     product                                             flags=display=product;logical;slotselect
+/metadata     ext4     /dev/block/platform/bootdevice/by-name/metadata     flags=display=metadata
+/data         f2fs     /dev/block/platform/bootdevice/by-name/userdata     flags=display=data
+/misc         emmc     /dev/block/platform/bootdevice/by-name/misc         flags=display=misc
